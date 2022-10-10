@@ -7,9 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 @MapperScan("com.krian.spike.mapper")
 public class SpikeSystemApplication {
-
-    public static void main(String[] args) {
-        SpringApplication.run(SpikeSystemApplication.class, args);
-    }
-
+	public static void main(String[] args) {
+		SpringApplication.run(SpikeSystemApplication.class, args);
+	}
 }
